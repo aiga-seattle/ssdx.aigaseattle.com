@@ -465,8 +465,7 @@ h1{
 	display:block;
 	text-align:center;
 	font-family:Glegoo, serif;
-	font-size:20px;
-	margin-left:70px;
+	font-size:22px;
 	padding-top:30px;
 	padding-bottom:30px;
 }
@@ -476,8 +475,7 @@ h1{
 	display:block;
 	text-align:center;
 	font-family:Glegoo, serif;
-	font-size:20px;
-	margin-left:70px;
+	font-size:22px;
 	padding-top:30px;
 	padding-bottom:10px;
 }
@@ -485,13 +483,13 @@ h1{
 
 .sponsors-inter ul, .event ul{
 	display:inline-block;
+	position:relative;
 	list-style:none;
 	width:100%;
-	margin:auto 0;
+	margin-left:0;
+	margin-right:0;
 	text-align:center;
 	padding:0;
-
-
 }
 
 .sponsors-inter ul li, .event ul li{
@@ -747,7 +745,15 @@ h1{
 	margin: 0 auto;
 	overflow: hidden;
 }
-
+.social{
+	position:relative;
+	display: inline-block;
+	min-height:160px;
+	width:100%;
+	float:left;
+	margin:auto 0;
+	overflow:hidden;
+}
 
 img, object, embed {
 	max-width: 100%;
@@ -776,6 +782,12 @@ img {
 	.reality-content img{
 		float:none;
 		padding-left:70px;
+	}
+	
+	.sponsors ul, .event ul{
+		margin-left:0;
+		margin-right:0;
+
 	}
 
 }
@@ -836,14 +848,37 @@ img {
 		float:none;
 		width:100%;
 	}
-	.event ul{
-			margin-left:25%;
+	.event ul, .sponsors ul{
+		display:inline-block;
+		text-align:center;
+
+	}
+		.social{
+		position:relative;
+		width:100%;
+		height:160px;
+		margin:auto 0;
+		text-align:center;
 
 	}
 
+	.tweet{
+		float:none;
+		position:relative;
+		margin:auto 0;
+		padding:0;
+		text-align:center;
+		margin-left:0;
+	}
+
+
 	.fb{
-		margin-top:7%;
-		margin-left:22%;
+		float:none;
+		text-align:center;
+		padding:0;
+		margin:auto 0;
+		margin-top:40px;
+		margin-left:0;
 		margin-bottom:10%;
 	}
 }
