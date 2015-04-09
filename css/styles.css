@@ -179,13 +179,33 @@ h1{
 
 }
 
-.jumpstart p, .workshops p, .tours p{
+.jumpstart p, .tours p{
 	color:#2F2F2F;
 	font-family:Glegoo, serif;
 	font-size:16px;
 	margin-left:70px;
 	padding-top:20px;
 	padding-right:160px;
+}
+
+.workshops p{
+	color:#2F2F2F;
+	font-family:Glegoo, serif;
+	font-size:16px;
+	margin-left:70px;
+	padding-top:20px;
+	padding-right:160px;
+	padding-bottom:20px;
+	
+}
+
+.workshop a{
+	color:#fff;
+	
+}
+
+.workshop a:hover{
+	text-decoration:none;
 }
 
 .moderator{
